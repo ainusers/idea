@@ -1,6 +1,5 @@
 package com.qax.idea;
 
-import com.qax.idea.ioc.User;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

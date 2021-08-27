@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 import java.io.Serializable;
 
 @Data
-@Component("WebShellTrojanEntity")
+@Component("User")
 public class User implements Serializable {
 
     private String name;

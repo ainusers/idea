@@ -5,7 +5,7 @@ import com.qax.idea.ioc.User;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.qax.idea")
 public class IdeaApplication {
 
 
@@ -15,8 +15,15 @@ public class IdeaApplication {
     public static void main(String[] args) {
         SpringApplication.run(IdeaApplication.class, args);
 
+        // ioc模块 entity实体注入测试
         user = SpringContext.getBeanByName("User", User.class);
+        user.setAge(12);
+        user.setName("奇安信");
         System.out.println(user.toString());
+
+        //
+
+
     }
 
 }

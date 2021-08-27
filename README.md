@@ -10,10 +10,17 @@
 所以其实归结一句话：考虑是否将一个class交由spring管理，关键看这个class产生的bean是否符合spring提供的scope的生命周期规则
 
 ##### 1.2. 测试
-user = SpringContext.getBeanByName("User", User.class);
-user.setAge(12);
-user.setName("cc");
-System.out.println(user.toString());
+@SpringBootApplication(scanBasePackages = "com.qax.idea")
+public class IdeaApplication {
+    private static User user;
+    public static void main(String[] args) {
+        SpringApplication.run(IdeaApplication.class, args);
+        user = SpringContext.getBeanByName("User", User.class);
+        user.setAge(12);
+        user.setName("奇安信");
+        System.out.println(user.toString());
+    }
+}
 
 
 #### 2. LOAD模块 (在springboot项目启动之前提前加载数据或配置)

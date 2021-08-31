@@ -1,5 +1,11 @@
 package com.qax.idea.spi;
-
+/**
+ * @author: tianyong
+ * @time: 2021/8/30 18:36
+ * @description:
+ * @Version: v1.0
+ * @company: Qi An Xin Group.Situation 态势感知事业部
+ */
 public class SPIServiceImpl implements SPIService{
 
 

@@ -38,3 +38,7 @@ System.out.println(configure.get());
 #### 4. SPI模块 (ServiceLoader.load:动态配置操作实现类)
 ##### 4.1. 测试代码
 这部分不需要代码测试，只需要启动IdeaAoolication启动类即可
+
+
+#### 5. 函数式接口+构造链式调用模块 ()
+##### 5.1. 测试代码

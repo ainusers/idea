@@ -8,10 +8,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 class IdeaApplicationTests {
 
     @Test
-    void contextLoads() {
-        new BaseStream().getInstance()
-          .dataHandle()
-          .print();
+    void contextLoads() throws Exception {
     }
 
 }

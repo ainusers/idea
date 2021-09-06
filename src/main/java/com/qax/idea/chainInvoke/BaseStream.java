@@ -1,5 +1,6 @@
 package com.qax.idea.chainInvoke;
 
+
 /**
  * @author: tianyong
  * @time: 2021/8/30 18:36
@@ -8,6 +9,7 @@ package com.qax.idea.chainInvoke;
  * @company: Qi An Xin Group.Situation 态势感知事业部
  */
 public class BaseStream {
+
 
 
     /**
@@ -30,9 +32,8 @@ public class BaseStream {
       * @Version: v1.0
       * @company: Qi An Xin Group.Situation 态势感知事业部
       */
-    public BaseStream dataHandle(){
+    public BaseStream dataHandle() throws Exception {
         // write your custom code
-
         return this;
     }
 

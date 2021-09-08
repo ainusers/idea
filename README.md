@@ -40,7 +40,7 @@ System.out.println(configure.get());
 这部分不需要代码测试，只需要启动IdeaAoolication启动类即可
 
 
-#### 5. 构造链式调用模块 ()
+#### 5. CHAININVOKE模块 (构造链式调用模块)
 ##### 5.1. 测试代码
 @Test
 void contextLoads() throws Exception {
@@ -49,3 +49,6 @@ void contextLoads() throws Exception {
       .dataHandle()
       .print();
 }
+
+
+# 6. CHECK模块 (前缀树实现敏感词检测)

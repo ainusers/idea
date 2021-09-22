@@ -1,6 +1,5 @@
 package com.qax.idea;
 
-import com.qax.idea.chainInvoke.BaseStream;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 

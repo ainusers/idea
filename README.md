@@ -50,5 +50,40 @@ void contextLoads() throws Exception {
       .print();
 }
 
+#### 6. CHECK模块 (前缀树实现敏感词检测)
 
-# 6. CHECK模块 (前缀树实现敏感词检测)
+
+#### 7. 动态类
+@Test
+void contextLoads() throws Exception {
+    String name = "cc";
+    String model = "set(name).get().print()";
+    //groovy提供了一种将字符串文本代码直接转换成Java Class对象的功能
+    GroovyClassLoader groovyClassLoader = new GroovyClassLoader();
+    //里面的文本是Java代码,但是我们可以看到这是一个字符串我们可以直接生成对应的Class<?>对象,而不需要我们写一个.java文件
+    Class<?> clazz = groovyClassLoader.parseClass("" +
+            "package com.qax.idea;\n" +
+            "\n" +
+            "/**\n" +
+            " * @author: tianyong\n" +
+            " * @time: 2021/9/18 17:29\n" +
+            " * @description:\n" +
+            " * @Version: v1.0\n" +
+            " * @company: Qi An Xin Group.Situation 态势感知事业部\n" +
+            " */\n" +
+            "public class CC {\n" +
+            "\n" +
+            "    public User invokeUser(String name){\n" +
+            "        User user = new User();\n" +
+            "        System.out.println(name);\n" +
+            "        return user."+model+";\n" +
+            "    }\n" +
+            "\n" +
+            "}\n");
+    Object obj = clazz.newInstance();
+    Method method = clazz.getDeclaredMethod("invokeUser",String.class);
+    method.invoke(obj,name);
+
+    /*Object val = method.getDefaultValue();
+    System.out.println(val);*/
+}

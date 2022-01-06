@@ -87,3 +87,6 @@ void contextLoads() throws Exception {
     /*Object val = method.getDefaultValue();
     System.out.println(val);*/
 }
+
+
+#### 8. 规则检测

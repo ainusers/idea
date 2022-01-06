@@ -69,7 +69,7 @@ void contextLoads() throws Exception {
             " * @time: 2021/9/18 17:29\n" +
             " * @description:\n" +
             " * @Version: v1.0\n" +
-            " * @company: Qi An Xin Group.Situation 态势感知事业部\n" +
+            " * @company: QiXin Group.Situation xx事业部\n" +
             " */\n" +
             "public class CC {\n" +
             "\n" +

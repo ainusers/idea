@@ -6,7 +6,7 @@ package com.qax.idea.chainInvoke;
  * @time: 2021/8/30 18:36
  * @description:
  * @Version: v1.0
- * @company: Qi An Xin Group.Situation 态势感知事业部
+ * @company: QiXin Group.Situation xx事业部
  */
 public class BaseStream {
 
@@ -17,7 +17,7 @@ public class BaseStream {
       * @time: 2021/8/30 18:40
       * @description:
       * @Version: v1.0
-      * @company: Qi An Xin Group.Situation 态势感知事业部
+      * @company: QiXin Group.Situation xx事业部
       */
     public BaseStream getInstance(){
         // write your custom code
@@ -30,7 +30,7 @@ public class BaseStream {
       * @time: 2021/8/30 18:40
       * @description:
       * @Version: v1.0
-      * @company: Qi An Xin Group.Situation 态势感知事业部
+      * @company: QiXin Group.Situation xx事业部
       */
     public BaseStream dataHandle() throws Exception {
         // write your custom code
@@ -43,7 +43,7 @@ public class BaseStream {
       * @time: 2021/8/30 18:41
       * @description:
       * @Version: v1.0
-      * @company: Qi An Xin Group.Situation 态势感知事业部
+      * @company: QiXin Group.Situation xx事业部
       */
     public BaseStream print(){
         // write your custom code

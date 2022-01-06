@@ -7,7 +7,7 @@ import java.util.*;
   * @time: 2021/9/8 11:30
   * @description: 前缀树算法/DFA算法: http://blog.csdn.net/chenssy/article/details/26961957 实现的敏感词检测
   * @Version: v1.0
-  * @company: Qi An Xin Group.Situation 态势感知事业部
+  * @company: QiXin Group.Situation xx事业部
   */
 public class SensitiveWordCheck {
 
@@ -20,7 +20,7 @@ public class SensitiveWordCheck {
       * @time: 2021/9/8 11:31
       * @description: 检查文字中是否包含敏感字符
       * @Version: v1.0
-      * @company: Qi An Xin Group.Situation 态势感知事业部
+      * @company: QiXin Group.Situation xx事业部
       */
     @SuppressWarnings({ "rawtypes"})
     public static int checkBadWord(Map<String,String> wordMap,String txt,int beginIndex,int matchType){
@@ -61,7 +61,7 @@ public class SensitiveWordCheck {
       * @time: 2021/9/8 11:32
       * @description: 判断文字是否包含敏感字符 (匹配规则 1：最小匹配规则，2：最大匹配规则)
       * @Version: v1.0
-      * @company: Qi An Xin Group.Situation 态势感知事业部
+      * @company: QiXin Group.Situation xx事业部
       */
     public static boolean isContaintBadWord(Map<String,String> wordMap,String txt,int matchType){
         boolean flag = false;
@@ -80,7 +80,7 @@ public class SensitiveWordCheck {
       * @time: 2021/9/8 11:32
       * @description: 替换敏感字字符 （替换字符，默认*）
       * @Version: v1.0
-      * @company: Qi An Xin Group.Situation 态势感知事业部
+      * @company: QiXin Group.Situation xx事业部
       */
     public static String replaceBadWord(Map<String,String> wordMap, String txt,int matchType,String replaceChar){
         String resultTxt = txt;
@@ -102,7 +102,7 @@ public class SensitiveWordCheck {
       * @time: 2021/9/8 11:32
       * @description: 获取文字中的敏感词 (1：最小匹配规则，2：最大匹配规则)
       * @Version: v1.0
-      * @company: Qi An Xin Group.Situation 态势感知事业部
+      * @company: QiXin Group.Situation xx事业部
       */
     public static Set<String> getBadWord(Map<String,String> wordMap,String txt){
         return getBadWord(wordMap,txt,MINMATCHTYPE);
@@ -126,7 +126,7 @@ public class SensitiveWordCheck {
       * @time: 2021/9/8 11:33
       * @description: 获取替换字符串
       * @Version: v1.0
-      * @company: Qi An Xin Group.Situation 态势感知事业部
+      * @company: QiXin Group.Situation xx事业部
       */
     private static String getReplaceChars(String replaceChar,int length){
         String resultReplace = replaceChar;
@@ -142,7 +142,7 @@ public class SensitiveWordCheck {
       * @time: 2021/9/8 11:33
       * @description: 将我们的敏感词库构建成了一个类似与一颗一颗的树，这样我们判断一个词是否为敏感词时就大大减少了检索的匹配范围
       * @Version: v1.0
-      * @company: Qi An Xin Group.Situation 态势感知事业部
+      * @company: QiXin Group.Situation xx事业部
       */
     @SuppressWarnings({ "unchecked", "rawtypes" })
     public static Map<String,String> makeWordToHashMapTree(Set<String> keyWordSet) {

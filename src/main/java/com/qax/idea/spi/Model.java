@@ -9,7 +9,7 @@ import java.util.ServiceLoader;
  * @time: 2021/8/30 18:36
  * @description:
  * @Version: v1.0
- * @company: Qi An Xin Group.Situation 态势感知事业部
+ * @company: QiXin Group.Situation xx事业部
  */
 @Component
 public class Model implements CommandLineRunner {

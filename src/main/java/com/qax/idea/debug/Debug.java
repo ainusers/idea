@@ -12,9 +12,9 @@ import java.util.concurrent.*;
  * 文件名称: com.example.cc
  * 描述: [功能描述]
  * 创建时间: 2022/1/10.
- * 公司信息: Qi An Xin Group.Situation 态势感知事业部
+ * 公司信息: QiXin Group.Situation xx事业部
  *
- * @author tianyong@qianxin.com
+ * @author xx@qixin.com
  * @version v2.0
  */
 @Controller

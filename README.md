@@ -14,7 +14,7 @@ public class IdeaApplication {
         SpringApplication.run(IdeaApplication.class, args);
         user = SpringContext.getBeanByName("User", User.class);
         user.setAge(12);
-        user.setName("奇安信");
+        user.setName("奇信");
         System.out.println(user.toString());
     }
 }
@@ -89,4 +89,4 @@ void contextLoads() throws Exception {
 #### 8. MATCHING模块 (规则检测）
 
 
-#### 9. debug动态调试模块 (可用于算子编排）
+#### 9. debug动态调试模块 (算子编排）

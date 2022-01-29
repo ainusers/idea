@@ -62,7 +62,7 @@ void contextLoads() throws Exception {
             "package com.qax.idea;\n" +
             "\n" +
             "/**\n" +
-            " * @author: tianyong\n" +
+            " * @author: ty\n" +
             " * @time: 2021/9/18 17:29\n" +
             " * @description:\n" +
             " * @Version: v1.0\n" +
